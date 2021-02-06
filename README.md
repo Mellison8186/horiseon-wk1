@@ -1,4 +1,4 @@
-# Code Refactor Starter Code
+# Code Refactor Horiseon Marketing
 
 ## Purpose
 A website that offers social media marketing tools.
