@@ -53,6 +53,15 @@ a {
 
 p {
     font-size: 16px;
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .hero {
@@ -64,25 +73,63 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 100%;
     margin: 0 auto;
+    display: inline;
+    margin-left: 20px;
+    padding: 60px;
+}
+
+/* END CONTENT STYLES */
+
+/* START MARKETING STYLES */
+.marketing-container {
+    width: 65%;
+      margin: 0 0 0 25px;
+      float: left;
+      align-items: center;
+      overflow: auto;
+}
+
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img, 
+.online-reputation-management img, 
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    flex: 2 10%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 20px;
+    align-items: center;
 }
-/* END CONTENT STYLES */
+
+.marketing-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* END MARKETING STYLES */
 
 /* START BENEFITS STYLES */
 .benefits {
@@ -118,32 +165,6 @@ p {
     max-width: 150px;
 }
 /* END BENEFITS STYLES */
-
-/* START SUB PAGE STYLES */
-.search-engine-optimization, 
-.online-reputation-management, 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img, 
-.online-reputation-management img, 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, 
-.online-reputation-management h2, 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* END SUB PAGE STYLES */
 
 /* START FOOTER STYLES */
 .footer {
